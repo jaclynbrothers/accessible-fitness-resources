@@ -6,24 +6,65 @@
 }
 section{
     border: 2px black solid;
-    width: 600px;
-    height: 400px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.main-categories{
+
+}
+.fitness-categories{
 
 }
 .navigation{
-
+    display: flex;
+    flex-direction: row;
 }
 .footer{
 
 }
 /*Styling*/
+body{
+    background-image: linear-gradient(to bottom right, rgb(19, 9, 58), rgb(26, 15, 234), rgb(187, 214, 255));
+    
+    }
+   
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 3rem;
+    color: white;
+}
+h2{
+    font-size: 2rem;
+    color: white;
+
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
 .menu-Btn{
+    margin: 5px;
+
 
 }
 .form-Btn{
 
 }
+li{
+    list-style: none;
+}
+.logo{
+    width: 150px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
 /*Functionality*/
 .hidden-Btn{
-
+    display: none;
 }
