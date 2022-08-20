@@ -1,0 +1,29 @@
+/*Main Layout*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+
+}
+section{
+    border: 2px black solid;
+    width: 600px;
+    height: 400px;
+
+}
+.navigation{
+
+}
+.footer{
+
+}
+/*Styling*/
+.menu-Btn{
+
+}
+.form-Btn{
+
+}
+/*Functionality*/
+.hidden-Btn{
+
+}
