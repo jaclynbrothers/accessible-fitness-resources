@@ -6,10 +6,9 @@
 }
 section{
     /*Border just temporary*/
-    border: 2px black solid; 
     color: white;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     height: fit-content;
 }
 .main-categories{
@@ -24,7 +23,7 @@ section{
 }
 .footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: fit-content;
     width: 100%;
 }
@@ -35,7 +34,6 @@ body {
     background-image: url("/Users/breannabang/Projects/shared/accessible-fitness-resources/Images/backgroundimage.jpg");
     background-repeat: no-repeat;
     background-color: #cccccc;
-    height: auto;
    }
 
 #overlay {
@@ -46,7 +44,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,.5); /* Black background with opacity */
+    background-color: rgba(0,0,0,.75); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
   }
@@ -62,35 +60,13 @@ h2{
 
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 p{
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
 }
-.menu-Btn{
-    display: inline-block;
-    outline: 0;
-    border: 0;
-    cursor: pointer;
-    font-weight: 600;
-    color: rgb(72, 76, 122);
-    font-size: 14px;
-    height: 38px;
-    width: 150px;
-    padding: 8px 24px;
-    margin: 5px;
-    border-radius: 50px;
-    background-image: linear-gradient(180deg,#fff,#f5f5fa);
-    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
-    transition: all .2s ease-out;
-    :hover{
-        box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
-    }
-}
-.form-Btn{
 
-}
 li{
     list-style: none;
 }
@@ -102,7 +78,30 @@ li{
     color: white;
     
   }
-/*Functionality*/
+/*Buttons*/
+.menu-Btn{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(72, 76, 122);
+    font-size: 1.5rem;
+    height: 35px;
+    width: 200px;
+    padding: 8px 24px;
+    margin: 5px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg,#fff,#f5f5fa);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all .2s ease-out;
+    :hover{
+        box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+    }
+}
 .hidden-Btn{
     display: none;
+}
+.form-Btn{
+
 }
