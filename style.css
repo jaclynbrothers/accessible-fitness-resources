@@ -10,6 +10,7 @@ section{
     color: white;
     margin: 10px;
     padding: 10px;
+    height: fit-content;
 }
 .main-categories{
 
@@ -25,11 +26,26 @@ section{
 
 }
 /*Styling*/
-body{
-    background-image: linear-gradient(to bottom right, rgb(19, 9, 58), rgb(26, 15, 234), rgb(187, 214, 255));
-    
-    }
-   
+body {
+    background-image: url("/Users/breannabang/Projects/shared/accessible-fitness-resources/Images/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: auto;
+   }
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
 h1{
     font-family: 'Bebas Neue';
     font-size: 3rem;
@@ -66,9 +82,6 @@ p{
     :hover{
         box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
     }
-    
-
-
 }
 .form-Btn{
 
@@ -79,10 +92,7 @@ li{
 .logo{
     width: 150px;
 }
-img {
-    max-width: 100%;
-    height: auto;
-  }
+
   a {
     color: white;
     
