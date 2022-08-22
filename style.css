@@ -23,11 +23,16 @@ section{
     flex-direction: row;
 }
 .footer{
-
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
 }
 /*Styling*/
 body {
-    background-image: url("/Users/breannabang/Projects/shared/accessible-fitness-resources/Images/backgroundimage.png");
+    display: flex;
+    flex-direction: column;
+    background-image: url("/Users/breannabang/Projects/shared/accessible-fitness-resources/Images/backgroundimage.jpg");
     background-repeat: no-repeat;
     background-color: #cccccc;
     height: auto;
