@@ -2,20 +2,13 @@
 .main-container{
     display: flex;
     flex-direction: column;
+    margin: 30px 50px 30px 50px;
+    padding: 30px 50px 30px 50px;
 
 }
 section{
-    /*Border just temporary*/
     color: white;
-    margin: 5px;
-    padding: 5px;
     height: fit-content;
-}
-.main-categories{
-
-}
-.fitness-categories{
-
 }
 .navigation{
     display: flex;
@@ -36,34 +29,31 @@ body {
     background-color: #cccccc;
    }
 
-#overlay {
-    position: fixed; /* Sit on top of the page content */
+   #overlay {
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,.75); /* Black background with opacity */
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: rgba(0,0,128,.75); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
   }
 
 h1{
     font-family: 'Bebas Neue';
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
 }
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
 
 }
 h3{
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -85,12 +75,12 @@ li{
     border: 0;
     cursor: pointer;
     font-weight: 600;
-    color: rgb(72, 76, 122);
+    color: navy;
     font-size: 1.5rem;
-    height: 35px;
-    width: 200px;
+    height: 50px;
+    width: 250px;
     padding: 8px 24px;
-    margin: 5px;
+    margin: 10px 50px;
     border-radius: 50px;
     background-image: linear-gradient(180deg,#fff,#f5f5fa);
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
