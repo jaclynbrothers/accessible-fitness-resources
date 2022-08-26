@@ -27,9 +27,9 @@ body {
     background-image: url("/Users/breannabang/Projects/shared/accessible-fitness-resources/Images/backgroundimage.jpg");
     background-repeat: no-repeat;
     background-color: #cccccc;
-   }
+}
 
-   #overlay {
+#overlay {
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
     margin: 0 0 0 0;
@@ -37,7 +37,7 @@ body {
     background-color: rgba(0,0,128,.75); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
-  }
+}
 
 h1{
     font-family: 'Bebas Neue';
@@ -64,10 +64,10 @@ li{
     width: 150px;
 }
 
-  a {
+a {
     color: white;
-    
-  }
+}
+
 /*Buttons*/
 .menu-Btn{
     display: inline-block;
