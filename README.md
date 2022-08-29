@@ -1,7 +1,7 @@
 # Accessible Fitness Resources
 This website allows the user to choose an area that they would like modifications for in their fitness routine. Areas include visual, hearing, mobility, cognitive, and sensory resources. Resources are free exercise routines from a variety of instructors, which are credited. 
 
-Accessible Fitness Resources was created with fellow software engineer <a href="https://breannabang.com/">Breanna Bang</a>.
+Accessible Fitness Resources was created with fellow software engineer <a href="https://github.com/BreaBang">Breanna Bang</a>.
 
 **Link to project:** **Coming Soon**
 
