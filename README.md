@@ -20,7 +20,3 @@ Jaclyn Brothers: I learned more about mobile first design and modals to arrange 
 ## Website Credits
 
 <a href="https://jaclynbrothers.com/">Jaclyn Brothers</a> & <a href="https://breannabang.com/">Breanna Bang</a>
-
-## Other Projects
-
-**Coming Soon**
